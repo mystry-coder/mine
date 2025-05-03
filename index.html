@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Love</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    .container {
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      color: #fff;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 30px;
+      background-color: #fff;
+      color: #ee4b6a;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #ffd1dc;
+    }
+
+    #message {
+      display: none;
+      margin-top: 40px;
+      font-size: 1.5em;
+      color: #fff;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    footer {
+      margin-top: 50px;
+      color: #fff;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>For the Love of My Life My everything </h1>
+    <h1>KOYEL ❤️</h1>
+    <p>This is something I’ve wanted to say for a long time.</p>
+    <button onclick="showMessage()">Click to Read</button>
+
+    <div id="message">
+      <p>
+        My love, every day I spend with you feels like a blessing. <br>
+        You are the sunshine in my life, the calm in my storm, and the reason I smile. <br>
+        I want you to know that I love you — deeply, endlessly, and truly. 💖
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+    Made with all my love — Just for You ❤️
+</div>
+    Designed BY YOUR RI
+  </footer>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+</body>
+</html>
